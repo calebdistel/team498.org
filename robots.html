@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <title>498 Robotics - Robots</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="scrollbar">
+        <nav>
+            <a href="index.html" class="logo underline-animation"></a>
+        </nav>
+        <div id="default-nav">
+            <ul id="title-bar">
+                <a href="index.html" class="title underline-animation">Welcome</a>
+                <a href="robots.html" class="current underline-animation">Robots</a>
+                <a href="sponsors.html" class="title underline-animation">Sponsors</a>
+                <a href="resources.html" class="title underline-animation">Resources</a>
+            </ul>
+            
+            <script src="js/NavDrop.js"></script>
+        </div>
+        <div id="collapse-nav">
+            <button id="collapse-button"></button>
+                <div id="collapse">
+                    <ul>
+                        <li><a href="index.html" class="title underline-animation">Welcome</a></li>
+                        <li><a href="robots.html" class="current underline-animation">Robots</a></li>
+                        <li><a href="sponsors.html" class="title underline-animation">Sponsors</a></li>
+                        <li><a href="resources.html" class="title underline-animation">Resources</a></li>
+                    </ul>
+                </div>
+                <script src="js/NavCollapse.js"></script>
+        </div>
+
+        <div style="height: 70px"></div><!-- This is a hack to make the nav bar not overlap the content -->
+        <section class="banner-container">
+            <div class="scrollbar" style="overflow-x: scroll; display: flex; background-color: #000000;">
+                <a class="banner" href="https://www.thebluealliance.com/event/2023azgl" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2023</div>
+                    <div class="event">Arizona West Regional</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2023caph" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Finalist</div>
+                    <div class="year">2023</div>
+                    <div class="event">Hueneme Port Regional</div>
+                </a>
+                <a class="alt-banner" href="https://coachfredi.wixsite.com/my-site-2" target="_blank">
+                    <div class="image-container"><img src="img/logos/arl/arl-crest-sponsors-transparent.png"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2022</div>
+                    <div class="event">Arizona Robotics League</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2022aztem" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Finalist</div>
+                    <div class="year">2022</div>
+                    <div class="event">Arizona State Championship</div>
+                </a>
+                <a class="alt-banner" href="https://www.thebluealliance.com/event/2022cc" target="_blank">
+                    <div class="image-container"><img src="img/logos/chezy/chezy-full.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2022</div>
+                    <div class="event">Chezy Champs</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2022gal" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Finalist</div>
+                    <div class="year">2022</div>
+                    <div class="event">Galileo Division</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2022azva" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Finalist</div>
+                    <div class="year">2022</div>
+                    <div class="event">Arizona Valley Regional</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2019aztem" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2019</div>
+                    <div class="event">Arizona State Championship</div>
+                </a>
+                <a class="alt-banner" href="https://www.thebluealliance.com/event/2019cc" target="_blank">
+                    <div class="image-container"><img src="img/logos/chezy/chezy-full.svg"></div>
+                    <div class="award">Finalist</div>
+                    <div class="year">2019</div>
+                    <div class="event">Chezy Champs</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2019gal" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2019</div>
+                    <div class="event">Galileo Division</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2019azpx" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2019</div>
+                    <div class="event">Arizona West Regional</div>
+                </a>
+                <a class="banner" href="https://www.thebluealliance.com/event/2016azfl" target="_blank">
+                    <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
+                    <div class="award">Winner</div>
+                    <div class="year">2016</div>
+                    <div class="event">Arizona North Regional</div>
+                </a>
+            </div>
+        </section>
+        <section class="robot-container">
+            <div class="robot" style="background-image: url('img/robots/decimator.JPG')">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">Decimator</h1>
+                        <h2 id="year">2017-2022</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="robot" style="background-image: url('img/robots/robot2019.JPG');">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">Category 5</h1>
+                        <h2 id="year">2019</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="robot" style="background-image: url('img/robots/robot2018.JPG');">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">Killscreen 2.0</h1>
+                        <h2 id="year">2018</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="robot" style="background-image: url('img/robots/robot2017.JPG');">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">Spicy Devil</h1>
+                        <h2 id="year">2017</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="robot" style="background-image: url('img/robots/robot2016.JPG');">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">Little Shredder</h1>
+                        <h2 id="year">2016</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="robot" style="background-image: url('img/robots/robot2015.JPG');">
+                <div class="robot-info">
+                    <div id="info">
+                        <h1 id="name">The  Coyote</h1>
+                        <h2 id="year">2015</h2>
+                    </div>
+                    <div id="links">
+                        <a id="git" href=""></a>
+                        <a id="onshape" href=""></a>
+                        <a id="specs" href=""></a>
+                        <a id="manual" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
