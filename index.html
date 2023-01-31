@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>498 Robotics - index</title>
+        <title>498 Robotics - Home</title>
+        <link rel="icon" href="img/logos/team/hex/hex-black.svg">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body class="scrollbar">
@@ -14,8 +15,7 @@
                 <a href="sponsors.html" class="title underline-animation">Sponsors</a>
                 <a href="resources.html" class="title underline-animation">Resources</a>
             </ul>
-            
-            <script src="js/NavDrop.js"></script>
+             
         </div>
         <div id="collapse-nav">
             <button id="collapse-button"></button>
@@ -29,30 +29,48 @@
                 </div>
                 <script src="js/NavCollapse.js"></script>
         </div>
-        <div style="height: 65px;"></div>
-        <div class="title-page">
+        <section class="title-page">
             <img src="img/logos/team/original-transparent.png" style="height: 200px; padding-top: 50px; width:auto;">
             <p>The Cobra Commanders</p>
-        <section class="banner-container">
-            <a class="banner" href="https://www.thebluealliance.com/event/2023azgl" target="_blank" style="width: 200px;">
-                <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
-                <div class="award">Winner</div>
-                <div class="year">2023</div>
-                <div class="event">Arizona West Regional</div>
-            </a>
-            <a class="banner" href="https://www.thebluealliance.com/event/2023caph" target="_blank" style="width: 200px;">
-                <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
-                <div class="award">Finalist</div>
-                <div class="year">2023</div>
-                <div class="event">Hueneme Port Regional</div>
-            </a>
-            <a class="banner" href="https://coachfredi.wixsite.com/my-site-2" target="_blank" style="width: 200px;">
-                <div class="image-container"><img src="img/logos/first/first-shapes.svg"></div>
-                <div class="award">Winner</div>
-                <div class="year">2023</div>
-                <div class="event">Arizona Robotics League</div>
-            </a>
         </section>
+        <div class="content">
+            <h1>Mission</h1>
+            <div class="bar"></div>
+            <p>Our mission is to inspire the next generation of engineers and scientists by providing a fun and educational environment for students to learn and grow. We strive to create a team that is inclusive and welcoming to all students, regardless of their background or experience. We hope to instill a passion for STEM in our students and to help them develop the skills necessary to succeed in the future.</p>
+            <div class="bar"></div>
+            <script type="module">
+                const ref1 = document.querySelector(".content");
+                const bars1 = document.querySelectorAll(".bar");
+                import {updateContent} from "./js/ContentScroll.js";
+                updateContent(ref1, bars1, 66);
+            </script>  
         </div>
+        <div class="content">
+            <h1>Impact</h1>
+            <div class="bar"></div>
+            <p>The Cobra Commanders have made a significant impact on their community through outreach events and partnerships with local organizations. These efforts have inspired many young people in their community to pursue careers in STEM and have contributed to the growth of the local robotics industry.</p>
+
+            <div class="bar"></div>
+            <script type="module">
+                const ref2 = document.querySelector(".content");
+                const bars2 = document.querySelectorAll(".bar");
+                import {updateContent} from "./js/ContentScroll.js";
+                updateContent(ref2, bars2, 66);
+            </script>  
+        </div>
+
+        <div id="contact" class="content">
+            <h1>Contact</h1>
+            <div class="bar"></div>
+            <p>Send us a message or check out our socials!</p>
+            <div id="links">
+                <a id="insta" href="https://www.instagram.com/cobra_robotics/"></a>
+                <a id="email" href="mailto: 498robotics@gmail.com"></a>
+                <a id="twitter" href="https://twitter.com/frcteam498"></a>
+                <a id="facebook" href="https://www.facebook.com/thecobracommanders/"></a>
+            </div>
+        </div>
+        <script src="js/NavDrop.js"></script>  
+
     </body>
 </html>

@@ -1,0 +1,59 @@
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    font-family: "Kanit";
+    position: absolute;
+    overflow: scroll;
+}
+#item {
+    background-color: var(--dark-grey);
+    color: var(--primary-blue);
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+#item #title {
+    font-family: "Audiowide";
+    font-size: 20px;
+}
+#item #info {
+    font-size: 15px;
+    color: var(--primary-black);
+}
+
+.item-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+@font-face {
+    font-family: "Kanit";
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/kanit.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Audiowide";
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/audiowide.ttf') format("truetype");
+}
+:root {
+    --primary-blue: #4DC6FF;
+    --primary-white: #FFFFFF;
+    --primary-black: #000000;
+    --light-grey: #D8DFE7;
+    --dark-grey: #979CA5;
+    --highlight: #BFEAFF;
+    --light-shadow: #3D5A80;
+    --dark-shadow: #242B40;
+}
